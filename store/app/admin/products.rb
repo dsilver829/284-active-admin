@@ -1,4 +1,6 @@
 ActiveAdmin.register Product do
+  scope :unreleased
+
   index do
     column :name
     column :category
